@@ -7,29 +7,22 @@
 
     <fragment
         android:id="@+id/nav_chi"
-        android:name="com.example.asm_layout.fragment.ChiFragment"
+        android:name="com.example.Android.fragment.ChiFragment"
         android:label="@string/chi_name"
         tools:layout="@layout/fragment_all" />
     <fragment
         android:id="@+id/nav_thu"
-        android:name="com.example.asm_layout.fragment.ThuFragment"
+        android:name="com.example.Android.fragment.ThuFragment"
         android:label="@string/thu_name"
         tools:layout="@layout/fragment_all" />
     <fragment
         android:id="@+id/nav_thongke"
-        android:name="com.example.asm_layout.fragment.ThongKeFragment"
+        android:name="com.example.Android.fragment.ThongKeFragment"
         android:label="@string/thongke_name"
         tools:layout="@layout/fragment_all" />
     <fragment
-        android:id="@+id/nav_gioithieu"
-        android:name="com.example.asm_layout.fragment.GioiThieuFragment"
-        android:label="@string/chucnang_name"
-        tools:layout="@layout/fragment_gioi_thieu" />
-    <fragment
         android:id="@+id/nav_thoat"
-        android:name="com.example.asm_layout.fragment.ExitFragment"
+        android:name="com.example.Android.fragment.ExitFragment"
         android:label="@string/chucnang_name"
         tools:layout="@layout/fragment_exit" />
-
-
 </navigation>

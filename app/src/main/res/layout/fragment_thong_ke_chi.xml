@@ -30,17 +30,14 @@
                 android:layout_weight="1"
                 android:textSize="17dp"
                 android:hint="YYYY-MM-DD"/>
-            <TextView
+            <Button
                 android:id="@+id/ngayBDC"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/button"
                 android:gravity="center"
-                android:text="Chọn ngày"
-                android:textColor="#D3D3D3"
-                android:textStyle="bold" />
+                android:text="Chọn"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,30 +57,24 @@
                 android:layout_weight="1"
                 android:textSize="17dp"
                 android:hint="YYYY-MM-DD"/>
-            <TextView
+            <Button
                 android:id="@+id/ngayKTC"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:background="@drawable/button"
                 android:gravity="center"
-                android:text="Chọn ngày"
-                android:textColor="#D3D3D3"
-                android:textStyle="bold" />
+                android:text="Chọn"/>
         </LinearLayout>
 
-        <TextView
+        <Button
             android:id="@+id/btnTinhC"
             android:layout_gravity="center"
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:layout_margin="16dp"
-            android:background="@drawable/button"
             android:gravity="center"
-            android:text="Tính"
-            android:textColor="#D3D3D3"
-            android:textStyle="bold" />
+            android:text="Tính" />
         <TextView
             android:layout_width="wrap_content"
             android:textStyle="bold"
@@ -92,16 +83,16 @@
             android:layout_gravity="center"
             android:textSize="30dp"
             android:text="TỔNG THỐNG KÊ"/>
+
         <TextView
             android:id="@+id/tongC"
             android:layout_width="wrap_content"
-            android:textStyle="bold"
             android:layout_height="wrap_content"
-            android:textColor="#D3d3d3"
-            android:textColorHint="#D3D3D3"
-            android:layout_margin="16dp"
             android:layout_gravity="center"
-            android:textSize="30dp" />
+            android:layout_margin="16dp"
+            android:textColor="#D3d3d3"
+            android:textSize="30dp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </FrameLayout>
