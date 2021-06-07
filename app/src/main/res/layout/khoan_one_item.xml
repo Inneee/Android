@@ -30,7 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Loại"
-                    android:textSize="16dp"
+                    android:textSize="18dp"
                     android:textStyle="bold" />
 
                 <LinearLayout
@@ -43,20 +43,20 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="3dp"
                         android:text="Loại"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="3dp"
                         android:text="VNĐ / Ngày:"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                     <TextView
                         android:id="@+id/txtNgay"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="3dp"
                         android:text="Ngày"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <TextView
@@ -65,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:lines="3"
                     android:text="Nội Dung"
-                    android:textSize="14sp" />
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
@@ -75,14 +75,6 @@
                 android:layout_alignParentBottom="true"
                 android:layout_weight="6"
                 android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1">
-
-                </LinearLayout>
-
                 <LinearLayout
 
                     android:layout_width="match_parent"
@@ -102,25 +94,25 @@
 
                             <TextView
                                 android:id="@+id/btnEdit"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_marginRight="2.5dp"
                                 android:layout_weight="1"
+                                android:textSize="16dp"
                                 android:gravity="center"
-                                android:text="Edit"
-                                android:textAllCaps="true"
-                                android:textColor="@color/colorPrimaryDark" />
+                                android:text="Sửa"
+                                android:textColor="@color/colorPrimaryDark"/>
 
                             <TextView
                                 android:id="@+id/btnDelete"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_marginLeft="2.5dp"
                                 android:layout_weight="1"
+                                android:textSize="16dp"
                                 android:gravity="center"
-                                android:text="Del"
-                                android:textAllCaps="true"
-                                android:textColor="@color/colorPrimaryDark" />
+                                android:text="Xóa"
+                                android:textColor="@color/colorPrimaryDark"/>
                         </LinearLayout>
                     </RelativeLayout>
                 </LinearLayout>
