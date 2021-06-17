@@ -35,7 +35,6 @@ public class LoaiThuFragment extends Fragment {
     LoaiThuAdapter loaiThuAdapter;
 
     public LoaiThuFragment() {
-        // Required empty public constructor
     }
 
 

@@ -46,7 +46,6 @@ public class KhoanThuFragment extends Fragment {
     KhoanThuAdapter khoanThuAdapter;
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     public KhoanThuFragment() {
-        // Required empty public constructor
     }
 
 

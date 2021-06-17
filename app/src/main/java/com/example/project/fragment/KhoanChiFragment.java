@@ -46,7 +46,6 @@ public class KhoanChiFragment extends Fragment {
     KhoanChiAdapter khoanChiAdapter;
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     public KhoanChiFragment() {
-        // Required empty public constructor
     }
 
     @Override

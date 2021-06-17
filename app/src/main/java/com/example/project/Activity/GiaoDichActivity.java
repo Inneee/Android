@@ -85,22 +85,16 @@ public class GiaoDichActivity {
         }
         return name;
     }
-
-
-    //get GiaoDich theo mã GiaoDich
     public GiaoDich getMaGD(String maGD){
         String sql = "select * from GIAODICH where maGD=?";
         List<GiaoDich> list = getGD(sql, maGD);
         return list.get(0);
     }
-    //get GiaoDich theo mã khoản
     public List<GiaoDich> getMaKhoan(String maKhoan){
         String sql = "select * from GIAODICH where maKhoan=?";
         List<GiaoDich> list = getGD(sql, maKhoan);
         return list;
     }
-
-    //Thống kê tổng thu từ ngày đến ngày?
     public ArrayList<Double> thongKeTongThu(String bd, String kt){
         ArrayList<Double> list = new  ArrayList<>();
         String sql = "select tienGD from GIAODICH inner join KHOAN on GIAODICH.maKhoan = KHOAN.maKhoan where KHOAN.loaiKhoan='1' and ngayGD >='"+bd+"' and ngayGD <='"+kt+"'";
@@ -112,7 +106,6 @@ public class GiaoDichActivity {
         }
         return list;
     }
-    //Thống kê tổng chi từ ngày đến ngày?
     public ArrayList<Double> thongKeTongChi(String bd, String kt){
         ArrayList<Double> list = new  ArrayList<>();
         String sql = "select tienGD from GIAODICH inner join KHOAN on GIAODICH.maKhoan = KHOAN.maKhoan where KHOAN.loaiKhoan='0' and ngayGD >='"+bd+"' and ngayGD <='"+kt+"'";
@@ -124,7 +117,6 @@ public class GiaoDichActivity {
         }
         return list;
     }
-    //Thống kê tiền còn lại
     public double thongKeConLai(){
         double tong = 0;
         String sql = "select sum(tienGD) as TONG from GIAODICH where ngayGD <= NOW()";

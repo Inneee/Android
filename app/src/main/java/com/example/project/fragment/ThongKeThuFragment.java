@@ -31,7 +31,6 @@ public class ThongKeThuFragment extends Fragment {
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     GiaoDichActivity gdDAO;
     public ThongKeThuFragment() {
-        // Required empty public constructor
     }
 
 

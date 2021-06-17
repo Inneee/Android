@@ -33,7 +33,6 @@ public class LoaiChiFragment extends Fragment {
     KhoanActivity khoanDAO;
     LoaiChiAdapter loaiChiAdapter;
     public LoaiChiFragment() {
-        // Required empty public constructor
     }
 
     @Override

@@ -20,7 +20,6 @@ import com.google.android.material.tabs.TabLayout;
 public class ThuFragment extends Fragment {
 
     public ThuFragment() {
-        // Required empty public constructor
     }
 
 

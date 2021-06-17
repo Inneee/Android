@@ -31,6 +31,7 @@ public class KhoanActivity {
         return db.update("KHOAN",values,"maKhoan=?",new String[]{khoan.maKhoan});
     }
     public long delete(String maKhoan){
+
         return db.delete("KHOAN", "maKhoan=?",new String[]{maKhoan});
     }
     public List<Khoan> getKhoan(String sql, String...a){

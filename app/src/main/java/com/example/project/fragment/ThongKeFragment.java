@@ -20,7 +20,6 @@ import com.google.android.material.tabs.TabLayout;
 public class ThongKeFragment extends Fragment {
 
     public ThongKeFragment() {
-        // Required empty public constructor
     }
 
 
